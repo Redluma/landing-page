@@ -1,13 +1,19 @@
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    background-color: black;
 }
 
 .header {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    padding: 0 150px 0 150px;
-    background-color: lightcoral;
+    padding: 0 250px 0 250px;
+    background-color: rgb(30, 3, 75);
+    height: 100px;
+    margin-bottom: 1px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.12);
+    color: white;
 }
 
 ul {
@@ -22,11 +28,32 @@ ul {
 }
 
 .first-body, .second-body, .third-body, .fourth-body {
-    height: 400px;
+    height: 350px;
 }
 
 .first-body {
     background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 250px 0 250px;
+}
+
+.left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 100px 0;
+}
+
+.right-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    height: 275px;
+    border-radius: 20px;
 }
 
 .second-body {
@@ -46,4 +73,6 @@ ul {
     align-items: center;
     justify-content: center;
     background-color: aquamarine;
+    height: 100px;
+    margin: 1px 0 0 0;
 }
