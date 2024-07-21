@@ -8,7 +8,7 @@ body {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    padding: 0 230px 0 230px;
+    padding: 0 200px 0 200px;
     background-color: rgb(32, 6, 75);
     height: 100px;
     margin-bottom: 1px;
@@ -35,7 +35,7 @@ ul {
 .first-body {
     background-color: rgb(216, 201, 178);
     justify-content: space-between;
-    padding: 0 230px 0 230px;
+    padding: 0 200px 0 200px;
 }
 
 .left-text {
@@ -58,7 +58,7 @@ ul {
 
 .second-body {
     background-color: rgb(50, 16, 104);
-    padding: 0 230px 0 230px;
+    padding: 0 200px 0 200px;
     justify-content: space-between;
     color: white;
     align-items: center;
@@ -66,12 +66,19 @@ ul {
 
 .character-images {
     display: flex;
-    gap: 30px;
+    gap: 70px;
+}
+
+.portrait {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
 }
 
 .portrait-pic {
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     border: rgb(126, 238, 238) solid;
     border-width: 2px;
     border-radius: 50px;
@@ -92,4 +99,20 @@ ul {
     background-color: aquamarine;
     height: 100px;
     margin: 1px 0 0 0;
+}
+
+.character-title {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#jinhsi {
+    color: #E4D8DC;
+}
+
+#yinlin {
+    color: #F25055;
+}
+
+#verina {
+    color: #DBC686;
 }
