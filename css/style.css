@@ -8,8 +8,8 @@ body {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    padding: 0 250px 0 250px;
-    background-color: rgb(30, 3, 75);
+    padding: 0 230px 0 230px;
+    background-color: rgb(32, 6, 75);
     height: 100px;
     margin-bottom: 1px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px rgba(0, 0, 0, 0.12);
@@ -29,13 +29,13 @@ ul {
 
 .first-body, .second-body, .third-body, .fourth-body {
     height: 350px;
+    display: flex;
 }
 
 .first-body {
-    background-color: blanchedalmond;
-    display: flex;
+    background-color: rgb(216, 201, 178);
     justify-content: space-between;
-    padding: 0 250px 0 250px;
+    padding: 0 230px 0 230px;
 }
 
 .left-text {
@@ -53,11 +53,28 @@ ul {
 
 .banner {
     height: 275px;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .second-body {
-    background-color: cadetblue;
+    background-color: rgb(50, 16, 104);
+    padding: 0 230px 0 230px;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.character-images {
+    display: flex;
+    gap: 30px;
+}
+
+.portrait-pic {
+    height: 200px;
+    width: 200px;
+    border: rgb(126, 238, 238) solid;
+    border-width: 2px;
+    border-radius: 50px;
 }
 
 .third-body {
